@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="d3346f52-a36d-4594-9cbb-e35123c090ae">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Сценарии" category="Object">
+				<xr:TypeId>a6090218-b504-43df-8691-5dd1deddfad0</xr:TypeId>
+				<xr:ValueId>aec5af1a-8d57-4fd9-800e-07b0617d4bc6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Сценарии" category="Ref">
+				<xr:TypeId>8ed5d1ae-2ee7-439c-9d9f-a714eceaa129</xr:TypeId>
+				<xr:ValueId>19aced0a-4330-4335-9384-784db27c126a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Сценарии" category="Selection">
+				<xr:TypeId>dab86deb-5129-4a00-8b69-aa71d217f0c6</xr:TypeId>
+				<xr:ValueId>4a7f2f34-43a5-4b59-924e-649249aa6dcc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Сценарии" category="List">
+				<xr:TypeId>5c80622c-2497-4373-932f-70abd0ee107e</xr:TypeId>
+				<xr:ValueId>fd8cc27e-aca8-4970-a57b-6556a348e2f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Сценарии" category="Manager">
+				<xr:TypeId>73355eef-3419-4466-a64f-8ecfa3e75b22</xr:TypeId>
+				<xr:ValueId>c30605ce-b744-4c1e-afd7-c2602a57e2bb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Сценарии</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>eeb11359-06f4-4bd4-a8b7-8108920fc36b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

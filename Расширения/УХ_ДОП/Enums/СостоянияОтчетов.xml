@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="2b06845f-a7e6-49c9-bb8c-29ba2fdb8251">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияОтчетов" category="Ref">
+				<xr:TypeId>c5f3c18e-c333-49d7-bb99-a5d05eb96cd1</xr:TypeId>
+				<xr:ValueId>8659b22c-a82a-43d9-b7cd-097adc6f6b8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияОтчетов" category="Manager">
+				<xr:TypeId>701e42fb-5f10-405c-89dc-733d5263e31a</xr:TypeId>
+				<xr:ValueId>3d2b4f8f-0063-43e1-accc-a29e0ec803c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияОтчетов" category="List">
+				<xr:TypeId>28982223-2fea-4f49-b26e-cd0a836b969f</xr:TypeId>
+				<xr:ValueId>46a1d1d6-2d04-4632-bbfe-054d3e202c8c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияОтчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>63890ae4-d80a-4fe4-aadd-9add0854afd1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="dcb9b737-0b94-498f-8dad-63b3b3312189">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Утвержден</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d0760b18-bcfb-4209-b22c-118bc92a1038</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="275b87c6-2817-4aa5-b704-3471c7749644">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Выполняется</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d6698a8a-b677-4e57-9537-d0e681dcf3bc</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="4d445c33-5eff-4959-b52f-5e97f2e7d4ea">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядкиОкругленияОтчетности" category="Ref">
+				<xr:TypeId>73704ea9-fb6c-423e-baa9-050374929668</xr:TypeId>
+				<xr:ValueId>ebef3188-b484-466e-9366-3dfc8a156f89</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядкиОкругленияОтчетности" category="Manager">
+				<xr:TypeId>679a7247-8bba-4985-9f45-ec30e89a78ba</xr:TypeId>
+				<xr:ValueId>dbbf3587-f2dd-4f90-8775-7682b3117aff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядкиОкругленияОтчетности" category="List">
+				<xr:TypeId>2e9ed2f2-8451-4c45-81e5-e9d1e5cbc636</xr:TypeId>
+				<xr:ValueId>f39c001f-8107-4c30-abc0-a9fdc2454730</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПорядкиОкругленияОтчетности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cb42475a-eec7-40ef-a3f4-cc1cdce600e8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="430ea8d0-6e5a-4b96-b9cb-ca0c35f315c7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Окр1</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5100f5be-06c0-4d65-92cd-c6eed7797062</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ea7443e6-5229-4061-9b2b-40d361f7f840">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Окр1000</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>34437b5d-301a-4f3f-92ae-1c42eb8fd1dd</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f83fab45-c580-4249-a402-37c78e8cb70e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Окр1000000</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e54d4755-b628-4d71-b643-f15b4eab6fc0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

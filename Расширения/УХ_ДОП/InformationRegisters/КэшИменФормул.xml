@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="b93187a8-66b4-4d05-aa87-1738d85267fc">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КэшИменФормул" category="Record">
+				<xr:TypeId>d587d7c3-5f07-4b7f-9be5-35b57d3f3f99</xr:TypeId>
+				<xr:ValueId>ce49ab56-3252-41ff-9973-05f29ad1c8eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КэшИменФормул" category="Manager">
+				<xr:TypeId>4c581ffc-fb25-4c01-b762-6ea1bf85de7b</xr:TypeId>
+				<xr:ValueId>acf63a43-9e4d-4833-9d04-6e734ebad24f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КэшИменФормул" category="Selection">
+				<xr:TypeId>62a65366-5b68-4ad3-9fce-65480e7c0346</xr:TypeId>
+				<xr:ValueId>7fb57559-72f7-43ce-a5bd-b5661bd4c898</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КэшИменФормул" category="List">
+				<xr:TypeId>7ca29273-005a-4332-9bf2-36700a4f7f36</xr:TypeId>
+				<xr:ValueId>e167eff9-99f8-4597-a17d-c45912b9d997</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КэшИменФормул" category="RecordSet">
+				<xr:TypeId>24d20fce-7285-4adf-b776-8f2e1616d7df</xr:TypeId>
+				<xr:ValueId>ec8883e6-356e-4028-bb93-180958c665b3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КэшИменФормул" category="RecordKey">
+				<xr:TypeId>3a55a492-70d3-4f83-a1be-f55603c1ea64</xr:TypeId>
+				<xr:ValueId>d4e08829-b59c-4110-b850-a551fbde7b02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КэшИменФормул" category="RecordManager">
+				<xr:TypeId>11b25ef0-fe9b-4c81-8793-84b6a455eb3f</xr:TypeId>
+				<xr:ValueId>0439b90a-6769-49ed-998d-68d33e266a40</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КэшИменФормул</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8999cd15-177b-487c-a075-ddb7187b253a</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

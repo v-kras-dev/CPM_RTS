@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="cbf29ddc-a5d3-4a99-91e7-7a79c4d2613f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Периоды" category="Object">
+				<xr:TypeId>d2509b59-f589-4630-ba9a-37f259dd9baa</xr:TypeId>
+				<xr:ValueId>aa6e95cd-d778-4d6d-a9fe-25355eb6dc69</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Периоды" category="Ref">
+				<xr:TypeId>6cfb57a4-ceb9-4892-8d0b-f8d77ab2c204</xr:TypeId>
+				<xr:ValueId>47e5b509-ff67-46d2-b04f-caa383b2f63c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Периоды" category="Selection">
+				<xr:TypeId>8d8c116f-6cf2-48e8-b7be-0c7bbf43ccdd</xr:TypeId>
+				<xr:ValueId>8040fea2-b948-4d0f-b06d-6c8e8ce64e83</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Периоды" category="List">
+				<xr:TypeId>e6b3ec4e-8e6a-423f-b233-8399b3d03226</xr:TypeId>
+				<xr:ValueId>7d805a5a-a068-4fbf-87d6-2f52a9b59614</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Периоды" category="Manager">
+				<xr:TypeId>972c6ca5-9d2c-4582-b5d7-569d2605002b</xr:TypeId>
+				<xr:ValueId>19f78cb3-dbde-41bc-87f7-8b3d09b614f7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Периоды</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e88d2553-992f-49ac-8390-50f3b78c1182</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

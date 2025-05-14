@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="f23ebe50-7f9a-4a8f-99f5-1cbfa2ac0469">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиАналитическихБланков" category="Record">
+				<xr:TypeId>9ca341c5-6546-4200-b28d-274229da8308</xr:TypeId>
+				<xr:ValueId>19f9cff2-727a-4c63-85b3-99506e1d0da7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиАналитическихБланков" category="Manager">
+				<xr:TypeId>9f431f4c-7bcb-4dda-9e13-1871fd61fa2e</xr:TypeId>
+				<xr:ValueId>73adb2b1-8d30-47ba-8512-aca7993cdd50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиАналитическихБланков" category="Selection">
+				<xr:TypeId>26402282-4bed-4776-9fcf-b1aedb3ac022</xr:TypeId>
+				<xr:ValueId>d2598cf4-eeb5-48a8-b71a-cfbb55bdf759</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиАналитическихБланков" category="List">
+				<xr:TypeId>e4e35371-6573-4850-81d1-f90bf51745c5</xr:TypeId>
+				<xr:ValueId>3fe42da0-817e-4c0e-b1df-ee822dae4341</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиАналитическихБланков" category="RecordSet">
+				<xr:TypeId>3533d670-8b06-4b70-b832-cb0aeb419e66</xr:TypeId>
+				<xr:ValueId>0c7a6e76-eb42-4713-920a-834f6735ea64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиАналитическихБланков" category="RecordKey">
+				<xr:TypeId>5e200b1f-0fe4-4d50-9788-36706e0a2d47</xr:TypeId>
+				<xr:ValueId>b3c13a2e-7f02-4a52-bc87-cbcf88870bab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиАналитическихБланков" category="RecordManager">
+				<xr:TypeId>210488bc-2511-4aee-ac8f-9c14c91f394d</xr:TypeId>
+				<xr:ValueId>c1fc44aa-0d86-44bc-bd12-924d0a6f18d1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиАналитическихБланков</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>66897f34-8ab3-4e71-977c-7f660ba8b34c</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

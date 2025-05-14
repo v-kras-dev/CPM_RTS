@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Document uuid="571a09df-2b58-4b40-86bb-9c96959e2ae0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НастраиваемыйОтчет" category="Object">
+				<xr:TypeId>f4d9a4c7-876a-4982-bfc0-8fa0ac55886f</xr:TypeId>
+				<xr:ValueId>47123b4d-81b8-40a8-a713-82ed4d7aca86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НастраиваемыйОтчет" category="Ref">
+				<xr:TypeId>42057633-0d15-4856-82ac-f118d5c638f6</xr:TypeId>
+				<xr:ValueId>8a6466bd-6a09-4a5f-915b-e64bbd65728d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НастраиваемыйОтчет" category="Selection">
+				<xr:TypeId>f273c34c-e01b-4283-8859-2bb4ca0b442a</xr:TypeId>
+				<xr:ValueId>2f2dc819-99a0-4237-bb90-a3bc95421f68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НастраиваемыйОтчет" category="List">
+				<xr:TypeId>8287507b-1ba5-46f2-8ec7-7054f52e06cb</xr:TypeId>
+				<xr:ValueId>528699e5-ee67-4976-95ab-093314d065d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НастраиваемыйОтчет" category="Manager">
+				<xr:TypeId>5e4fe391-67ed-4d0f-8a11-1967767766b6</xr:TypeId>
+				<xr:ValueId>fdc31c1e-56b0-4452-abf2-83496271869d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастраиваемыйОтчет</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fa76d738-ad63-46c5-8997-073a42ab972d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7ccdf03e-c74d-497b-a899-9ac2354da448">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидОтчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d22f453c-dced-45a9-ad27-4a4117e94897</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыОтчетов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

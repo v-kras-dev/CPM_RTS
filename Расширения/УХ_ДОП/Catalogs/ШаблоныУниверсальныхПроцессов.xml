@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="c7d36f61-2337-4068-bfd3-64e623db4d00">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ШаблоныУниверсальныхПроцессов" category="Object">
+				<xr:TypeId>e3339708-187a-48a3-b090-650aaafd8106</xr:TypeId>
+				<xr:ValueId>4c5d7056-9dea-497e-a291-0f4836875f51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ШаблоныУниверсальныхПроцессов" category="Ref">
+				<xr:TypeId>189b0609-12b2-4cae-b0e2-86871e46a5f9</xr:TypeId>
+				<xr:ValueId>c7f101c1-1623-4839-a15f-7bb44f741c3d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ШаблоныУниверсальныхПроцессов" category="Selection">
+				<xr:TypeId>24ce18cf-5def-4e15-b60c-b61798e175d6</xr:TypeId>
+				<xr:ValueId>1bfc227a-00d6-4ee5-840b-2286ecca87eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ШаблоныУниверсальныхПроцессов" category="List">
+				<xr:TypeId>9ee7346a-8243-435c-9c23-b354e908d0d1</xr:TypeId>
+				<xr:ValueId>4ed5e044-5d60-4b79-ade7-938eb5335adf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ШаблоныУниверсальныхПроцессов" category="Manager">
+				<xr:TypeId>75f09dbc-6664-406e-93ea-900b1c71218a</xr:TypeId>
+				<xr:ValueId>8fe9d9d7-e0be-4a0b-9c62-8b3f9690f812</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ШаблоныУниверсальныхПроцессов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>33fa1702-5545-4ff8-b7c7-d0a5beb8322f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

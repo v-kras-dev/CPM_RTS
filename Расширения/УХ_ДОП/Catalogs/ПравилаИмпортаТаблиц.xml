@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="643968f9-1a4b-421b-be18-3a9ddcebdd52">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПравилаИмпортаТаблиц" category="Object">
+				<xr:TypeId>b8c0de0f-3562-4d60-992d-f085ff8a4ae0</xr:TypeId>
+				<xr:ValueId>84344ef4-0e5e-4c19-ba9c-9cf21a4c3fe0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПравилаИмпортаТаблиц" category="Ref">
+				<xr:TypeId>4d8d909a-36f9-4195-ad35-5ce861de50af</xr:TypeId>
+				<xr:ValueId>6145d308-826e-4f4f-baf6-e37e93afc3d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПравилаИмпортаТаблиц" category="Selection">
+				<xr:TypeId>0fb40e51-2cb4-4e4a-9c13-e834f8374318</xr:TypeId>
+				<xr:ValueId>5a29134a-083d-42e3-8995-1260005be185</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПравилаИмпортаТаблиц" category="List">
+				<xr:TypeId>39123ef0-02ff-4f96-a8d8-06aaec63ed5d</xr:TypeId>
+				<xr:ValueId>72206570-16ab-4e53-ad8b-53510c6e5ba2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПравилаИмпортаТаблиц" category="Manager">
+				<xr:TypeId>d2372afa-cc2f-458b-882d-16f752ecfd99</xr:TypeId>
+				<xr:ValueId>ee9a78aa-0855-47e6-b7c8-06be6e6dc916</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПравилаИмпортаТаблиц</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5a0c158e-dc53-472d-8f05-1cba210c98f9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

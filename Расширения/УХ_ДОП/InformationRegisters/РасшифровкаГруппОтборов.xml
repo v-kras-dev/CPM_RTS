@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="69048297-b420-416e-9132-bd8af6554a5d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.РасшифровкаГруппОтборов" category="Record">
+				<xr:TypeId>2480f27f-cfc5-4ad7-86e1-b5677f7c62ad</xr:TypeId>
+				<xr:ValueId>a4fe3404-7797-415d-873c-3f51791fb64a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.РасшифровкаГруппОтборов" category="Manager">
+				<xr:TypeId>fef7ee1c-ff68-492a-9c34-1ad904a988a8</xr:TypeId>
+				<xr:ValueId>7ed29ae6-b44c-492c-b107-f2f338debb7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.РасшифровкаГруппОтборов" category="Selection">
+				<xr:TypeId>1c74c981-4150-4dcf-b1d5-544f682788a0</xr:TypeId>
+				<xr:ValueId>ac6b103f-02ed-447d-a7ee-da76e8fd3099</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.РасшифровкаГруппОтборов" category="List">
+				<xr:TypeId>f987532c-2741-419b-a354-d471ef37d322</xr:TypeId>
+				<xr:ValueId>5c4eb096-d322-4fd7-997d-d97e508b15eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РасшифровкаГруппОтборов" category="RecordSet">
+				<xr:TypeId>fd9c63b2-bc38-4359-9d25-44c65d577c72</xr:TypeId>
+				<xr:ValueId>006539e2-383f-415a-9924-71c48ee626d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РасшифровкаГруппОтборов" category="RecordKey">
+				<xr:TypeId>13925393-2a5c-4c9d-a7c3-b3c12e5f9959</xr:TypeId>
+				<xr:ValueId>455fb220-da69-4d65-92fc-c0551b4de82c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РасшифровкаГруппОтборов" category="RecordManager">
+				<xr:TypeId>7a85ee7d-90c3-4c69-8369-14160f10dedb</xr:TypeId>
+				<xr:ValueId>3cc6f718-4dd7-40f3-8d60-ae8a77db4f1b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасшифровкаГруппОтборов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1e93a53b-d1b2-4e45-a03e-1f3b162adcf0</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="d7e399b5-ae6f-4ee4-a40a-43b2c5ad69d2">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КэшИменОбластейПоказателей" category="Record">
+				<xr:TypeId>288adfca-c8cc-4ed1-8b78-a209ceb62004</xr:TypeId>
+				<xr:ValueId>3fa803ae-8bb1-4da7-9e57-19f2234d8832</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КэшИменОбластейПоказателей" category="Manager">
+				<xr:TypeId>c4e3a0f4-edc5-45f3-9d9f-93a2763fff87</xr:TypeId>
+				<xr:ValueId>6e86ce5d-1b0b-4abc-b8f8-2d47088b1af0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КэшИменОбластейПоказателей" category="Selection">
+				<xr:TypeId>ebead4dd-a506-4948-b8d1-bf8488a6a16e</xr:TypeId>
+				<xr:ValueId>1279c560-6049-4b1a-991f-322bb6f4eb17</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КэшИменОбластейПоказателей" category="List">
+				<xr:TypeId>f97c8cc0-f54a-442f-98e4-b683a3ae208a</xr:TypeId>
+				<xr:ValueId>feca3a86-33de-45aa-967c-c051eeee3bdd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КэшИменОбластейПоказателей" category="RecordSet">
+				<xr:TypeId>a7b78de0-4768-4ad2-a647-4731c748daeb</xr:TypeId>
+				<xr:ValueId>6a152966-f317-4b57-abbd-e4b652bf5633</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КэшИменОбластейПоказателей" category="RecordKey">
+				<xr:TypeId>8bb12fed-1874-4af9-8f49-31ec01705724</xr:TypeId>
+				<xr:ValueId>215600c5-6500-497c-9b4a-f81208f10e81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КэшИменОбластейПоказателей" category="RecordManager">
+				<xr:TypeId>0a26ef4f-31c6-410d-b76f-d8cc37febcb7</xr:TypeId>
+				<xr:ValueId>d8fede65-d76e-4b5a-8aaa-32db848adaf0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КэшИменОбластейПоказателей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>79f080b4-37e8-45ad-842b-a5fda2263c8b</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

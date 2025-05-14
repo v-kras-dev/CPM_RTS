@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="343aaf34-b089-4e77-8824-b1b64d84a754">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.РегистрМатрицыПолномочий" category="Record">
+				<xr:TypeId>315bb2ee-8562-4238-8d97-752b781f6023</xr:TypeId>
+				<xr:ValueId>8830d6a9-561e-46a7-8baa-829106c16849</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.РегистрМатрицыПолномочий" category="Manager">
+				<xr:TypeId>64317876-a72c-4458-a637-f4a8cccb1dcf</xr:TypeId>
+				<xr:ValueId>e79adfc3-3765-4730-8479-7ffbdd78e4f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.РегистрМатрицыПолномочий" category="Selection">
+				<xr:TypeId>629f506b-2127-41ae-8e15-506adaf2fe57</xr:TypeId>
+				<xr:ValueId>f2cae62d-045b-4f6a-b7a8-044bbecc6deb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.РегистрМатрицыПолномочий" category="List">
+				<xr:TypeId>94af761d-a9b7-4be4-9c9f-e0d18cb79dad</xr:TypeId>
+				<xr:ValueId>61c758dc-930a-4bda-9784-da70834dbe23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РегистрМатрицыПолномочий" category="RecordSet">
+				<xr:TypeId>f516b19e-f164-4fbd-9264-7e7abf185752</xr:TypeId>
+				<xr:ValueId>d8862fe7-662c-4c25-b011-3de60b1ca046</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РегистрМатрицыПолномочий" category="RecordKey">
+				<xr:TypeId>0ce766e7-2f02-4d9a-a48b-dad2d19dac90</xr:TypeId>
+				<xr:ValueId>4e5554eb-f38b-43ba-83e3-86f88d72cea5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РегистрМатрицыПолномочий" category="RecordManager">
+				<xr:TypeId>21a44234-e28f-4c9b-bb0d-9d57ac3963c2</xr:TypeId>
+				<xr:ValueId>17209b31-a99a-44ab-b1ae-c660437e3ae6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистрМатрицыПолномочий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f19b90fc-9dc3-4ca8-858f-dcad4e292b75</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="cef6bb7d-4924-4eda-b8ad-e4abbab9702a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Согласование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c7df44b6-3d8d-4cc6-b2fd-20cbe9c2828c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШаблоныУниверсальныхПроцессов</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="d1731917-6911-4a57-ba90-5b88aab226bc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Исполняющий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9e24f6ed-92b3-4029-8514-3c35ef9d5f61</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

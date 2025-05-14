@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="5a4896fb-11cc-485d-88f7-f77196dc99b7">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КэшРаскрываемыхОбластей" category="Record">
+				<xr:TypeId>0fbb68cf-969f-4e09-838c-d176ed4fd258</xr:TypeId>
+				<xr:ValueId>606091e5-eb4d-4a79-a530-02d628035cdd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КэшРаскрываемыхОбластей" category="Manager">
+				<xr:TypeId>becfc102-b804-4893-b5c6-b27ba1019efc</xr:TypeId>
+				<xr:ValueId>8f7e290c-76ad-4b4b-a5ed-0875b85e9feb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КэшРаскрываемыхОбластей" category="Selection">
+				<xr:TypeId>2af684f1-a29f-4ff3-aea3-4ae0e157f059</xr:TypeId>
+				<xr:ValueId>43c8fcc3-870b-446d-b50c-d3dbada3bf30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КэшРаскрываемыхОбластей" category="List">
+				<xr:TypeId>97d7faf0-e804-4d53-b4df-dc2646b5f37e</xr:TypeId>
+				<xr:ValueId>c0a59dd6-0a3c-4971-b3b8-e1d0e02db550</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КэшРаскрываемыхОбластей" category="RecordSet">
+				<xr:TypeId>ff5be9e1-4bd0-4238-b5c7-2ad30752636a</xr:TypeId>
+				<xr:ValueId>e17a9988-2186-4d01-90eb-b573ca34d767</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КэшРаскрываемыхОбластей" category="RecordKey">
+				<xr:TypeId>96f62e56-2e78-4b8c-a727-84a2a69b8e15</xr:TypeId>
+				<xr:ValueId>703046d4-a0e7-4d47-9e5b-37c428c6ff17</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КэшРаскрываемыхОбластей" category="RecordManager">
+				<xr:TypeId>099839df-83e7-4790-949d-b38f46cf98b8</xr:TypeId>
+				<xr:ValueId>c69c7647-13d1-471e-b3cc-85f33335f1ac</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КэшРаскрываемыхОбластей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8a35335c-9717-443d-88ed-472e489c3752</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

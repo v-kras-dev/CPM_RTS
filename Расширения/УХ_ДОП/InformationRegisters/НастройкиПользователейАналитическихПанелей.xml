@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="ec67bc42-272e-45aa-aec7-b1167ae5c680">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиПользователейАналитическихПанелей" category="Record">
+				<xr:TypeId>2461c343-6bef-4470-91fb-34200088ee5c</xr:TypeId>
+				<xr:ValueId>a3c17f3d-19d3-4331-a748-f8f3179e5356</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиПользователейАналитическихПанелей" category="Manager">
+				<xr:TypeId>7069f032-99f7-4f9d-9b31-e53ae7931994</xr:TypeId>
+				<xr:ValueId>69175354-1357-4d3c-b21e-6fd2394a5a49</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиПользователейАналитическихПанелей" category="Selection">
+				<xr:TypeId>d072c142-5eff-4908-881f-76d70c50c0a4</xr:TypeId>
+				<xr:ValueId>3c993668-910f-4a50-ad6d-71ea64ecee3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиПользователейАналитическихПанелей" category="List">
+				<xr:TypeId>ede1b70b-b885-42a3-b390-a6938a706c5c</xr:TypeId>
+				<xr:ValueId>eeef3014-e287-496c-99cb-112baa2b6a73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиПользователейАналитическихПанелей" category="RecordSet">
+				<xr:TypeId>c717c635-d662-4760-82af-d77bd2344c70</xr:TypeId>
+				<xr:ValueId>7f7e9438-b5e2-4689-9d39-ef61c1d4c435</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиПользователейАналитическихПанелей" category="RecordKey">
+				<xr:TypeId>8ad2a930-103a-414e-b0ec-2b308bd87b36</xr:TypeId>
+				<xr:ValueId>e2c4921f-b102-4157-9187-86b688bb70a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиПользователейАналитическихПанелей" category="RecordManager">
+				<xr:TypeId>17df5b07-1496-4cd1-aeaa-430233298afe</xr:TypeId>
+				<xr:ValueId>b6a4a686-7ab0-4450-8de4-bfa978d8a304</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиПользователейАналитическихПанелей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>186b147b-01b7-45b7-a5cb-46058a033401</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="192fe5b9-170f-42c6-a7d6-01cccd6b3ab3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пользователь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7c2309b1-20d6-4f3c-a295-aa6180be5397</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="d055bdd0-03a2-41f0-9824-c0290086ded4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ШаблонПанели</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3eb4c56d-33ea-44ff-9926-33fe437bb6eb</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.АналитическиеПанели</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="49428416-2a2c-4539-9a55-c589181d872f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВариантПанели</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>45864e9d-2b7a-40fe-ae50-64828634834b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВариантыАналитическихПанелей</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

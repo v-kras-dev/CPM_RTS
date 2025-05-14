@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="41a4a181-92fc-49ed-86da-37b9db465d5d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПоказателиОтчетов" category="Object">
+				<xr:TypeId>082786dd-4d07-4852-a350-ba096fa5da3f</xr:TypeId>
+				<xr:ValueId>22219aa6-b26a-45c7-b2f4-7cd79697e209</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПоказателиОтчетов" category="Ref">
+				<xr:TypeId>245f9afb-c47e-4ed1-91e0-16d1a785ac52</xr:TypeId>
+				<xr:ValueId>619e5042-def6-4606-a0f7-3791fc4dc984</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПоказателиОтчетов" category="Selection">
+				<xr:TypeId>2af79577-26c8-4e48-9a41-4bfb01bdf975</xr:TypeId>
+				<xr:ValueId>86240bb3-a620-44ae-9438-eab2776fdac3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПоказателиОтчетов" category="List">
+				<xr:TypeId>084eaae8-f7b5-4d55-97a4-983295efec03</xr:TypeId>
+				<xr:ValueId>82486266-1a27-453f-b3db-b53dbb124b6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПоказателиОтчетов" category="Manager">
+				<xr:TypeId>7279fc73-db85-4125-ab7a-f8566dac5448</xr:TypeId>
+				<xr:ValueId>fc9f4b23-501c-4c48-8433-0c5263bcf30a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПоказателиОтчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>960bcdfe-b743-49b3-8bf6-87c675c21006</ExtendedConfigurationObject>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыОтчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ШаблоныТрансформационныхКорректировок</xr:Item>
+			</Owners>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="83887707-801a-4200-8169-69bbba9b3fe3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЧисловойПоказатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>edfa32a4-e695-4717-ad40-0bacad57fbf4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

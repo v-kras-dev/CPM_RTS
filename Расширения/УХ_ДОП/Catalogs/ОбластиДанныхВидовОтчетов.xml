@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="cb815d9c-16f6-43d2-bee4-9a99ffe2ab61">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОбластиДанныхВидовОтчетов" category="Object">
+				<xr:TypeId>96b3aef9-572c-4339-b950-76d317066ccf</xr:TypeId>
+				<xr:ValueId>970fc2da-74e5-446f-9392-da43f333a00d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОбластиДанныхВидовОтчетов" category="Ref">
+				<xr:TypeId>e6bf160c-c6a9-4af2-a8c3-050b44cbfac5</xr:TypeId>
+				<xr:ValueId>35e961cd-84fc-4524-ad8e-6252f2d763ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОбластиДанныхВидовОтчетов" category="Selection">
+				<xr:TypeId>5b43c7f1-9b6e-492d-8dbb-b6ec7ec5a067</xr:TypeId>
+				<xr:ValueId>79f2d8b0-8266-4307-a1af-89640c5d9bb0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОбластиДанныхВидовОтчетов" category="List">
+				<xr:TypeId>3b0bc760-7947-4353-8fd2-6c3418275e41</xr:TypeId>
+				<xr:ValueId>47818069-43a5-48f9-982f-85b6a82e577c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОбластиДанныхВидовОтчетов" category="Manager">
+				<xr:TypeId>8565f15e-49b3-44c8-a0c4-ffc53c0d31c7</xr:TypeId>
+				<xr:ValueId>637e68e8-898d-4785-a369-372f09f9fa14</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбластиДанныхВидовОтчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>59851e9d-4dac-42af-82c0-df084c043a23</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

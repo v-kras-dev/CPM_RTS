@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="b0463e7d-ab31-4d64-a54a-fa50e259e2a2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВерсииЗначенийПоказателей" category="Object">
+				<xr:TypeId>5e30bff9-5764-428f-affb-646bae793725</xr:TypeId>
+				<xr:ValueId>4cd9f083-a2b4-4fa0-adce-d6e1bbd97beb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВерсииЗначенийПоказателей" category="Ref">
+				<xr:TypeId>994598a8-1efd-4aaf-b377-eda6c5e67ddc</xr:TypeId>
+				<xr:ValueId>1c733170-9343-42e4-b162-8db6601ae4be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВерсииЗначенийПоказателей" category="Selection">
+				<xr:TypeId>7b5a0623-f1ac-4034-a669-e351f43a2731</xr:TypeId>
+				<xr:ValueId>d1758765-e8e0-4adc-bf49-4cf626487618</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВерсииЗначенийПоказателей" category="List">
+				<xr:TypeId>076f6afe-0cb3-42ea-8ea4-b41bd2af11b0</xr:TypeId>
+				<xr:ValueId>c04200f0-1347-46a9-8167-68565d9c98c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВерсииЗначенийПоказателей" category="Manager">
+				<xr:TypeId>10cd95e6-a938-45bb-ac4c-fe6f2719db0c</xr:TypeId>
+				<xr:ValueId>65cd553a-a19c-4c9c-b9ab-0b2dad9c0e21</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВерсииЗначенийПоказателей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e9588970-18ac-4e34-9f6e-9a77f336a50a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

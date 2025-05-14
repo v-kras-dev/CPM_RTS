@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="a5c46ccb-b1f0-4ce6-9787-903e8b6b2d24">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ХранилищаПараметрическойНастройки" category="Record">
+				<xr:TypeId>b82ac6d4-22e9-4425-9248-9fe83009b732</xr:TypeId>
+				<xr:ValueId>f3f69582-ad6f-498f-be1d-18988fbbc95c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ХранилищаПараметрическойНастройки" category="Manager">
+				<xr:TypeId>79512c22-c6c7-4a5d-9949-9a7bff7a3ac5</xr:TypeId>
+				<xr:ValueId>83637c4d-cebf-43d7-9c7d-7f8bd53befc4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ХранилищаПараметрическойНастройки" category="Selection">
+				<xr:TypeId>ce8b9afc-10e8-49f7-8971-21d244568f07</xr:TypeId>
+				<xr:ValueId>55a823a1-7f9e-44f6-93f1-fd78b6271ce8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ХранилищаПараметрическойНастройки" category="List">
+				<xr:TypeId>b6eb92d1-89bf-4dd7-8630-c30c983e1781</xr:TypeId>
+				<xr:ValueId>83eb850e-d0c8-4e02-85e8-934d275a0755</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ХранилищаПараметрическойНастройки" category="RecordSet">
+				<xr:TypeId>1a5a3c7b-9294-4777-a2cc-0538e36dfefc</xr:TypeId>
+				<xr:ValueId>bdc3372b-1883-4ed0-80db-cc44627fbfc6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ХранилищаПараметрическойНастройки" category="RecordKey">
+				<xr:TypeId>8cfbefb6-a78f-4ed9-aac5-7cef8c9aa5e4</xr:TypeId>
+				<xr:ValueId>d6f36e41-2211-4125-a69c-b32b8d495206</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ХранилищаПараметрическойНастройки" category="RecordManager">
+				<xr:TypeId>e51f8aa6-b7d0-4560-bb87-4866351d7bb8</xr:TypeId>
+				<xr:ValueId>43036075-1f2a-4358-9cc5-dd8c2788741b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ХранилищаПараметрическойНастройки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b3df5e2d-d239-4ed5-9b28-0c750290dba0</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

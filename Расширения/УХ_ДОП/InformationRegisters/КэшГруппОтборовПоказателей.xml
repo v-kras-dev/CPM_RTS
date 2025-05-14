@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="614ec482-0a09-4e92-a14d-bf252054a63a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КэшГруппОтборовПоказателей" category="Record">
+				<xr:TypeId>1cc0f58a-b152-4b87-9595-709b1cb44427</xr:TypeId>
+				<xr:ValueId>c97c1784-dc0b-4f39-a814-b2d26ac52723</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КэшГруппОтборовПоказателей" category="Manager">
+				<xr:TypeId>66993003-04e8-4c88-abac-9ea4e890fbdb</xr:TypeId>
+				<xr:ValueId>ec3c6bed-3f3f-48b3-86ed-c4940e9ccec9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КэшГруппОтборовПоказателей" category="Selection">
+				<xr:TypeId>9f6118cf-963d-4c99-90f8-83fb1c60d599</xr:TypeId>
+				<xr:ValueId>08d582fc-6828-400c-bef9-611c6b07508e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КэшГруппОтборовПоказателей" category="List">
+				<xr:TypeId>8d76bbeb-7ba0-48a1-b89c-99be7de5ee46</xr:TypeId>
+				<xr:ValueId>326c86f9-d106-41b3-add8-e56d3e58e328</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КэшГруппОтборовПоказателей" category="RecordSet">
+				<xr:TypeId>cda65971-1c9c-4353-a9a8-ddcf271cddc8</xr:TypeId>
+				<xr:ValueId>144934c8-5bf5-479b-8aea-1566f92f380e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КэшГруппОтборовПоказателей" category="RecordKey">
+				<xr:TypeId>09d25cd5-55a3-4a1f-8f4d-bba532d548f3</xr:TypeId>
+				<xr:ValueId>ad86a891-19fa-4289-84fa-45f10e20d7f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КэшГруппОтборовПоказателей" category="RecordManager">
+				<xr:TypeId>761cfa92-f78e-4e79-a440-06467ebe07e2</xr:TypeId>
+				<xr:ValueId>bf21ad6e-18ec-48b0-b549-575eb896e1c6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КэшГруппОтборовПоказателей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d17878ea-935a-4d1c-8d8b-d28bccf656bb</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

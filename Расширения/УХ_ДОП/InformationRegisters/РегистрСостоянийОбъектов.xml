@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="e2abb954-a351-4d74-bc4a-2b57ba64616a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.РегистрСостоянийОбъектов" category="Record">
+				<xr:TypeId>faaf7cbe-5d0d-42c3-89db-6140a3580013</xr:TypeId>
+				<xr:ValueId>8d8d01c1-e1d6-402d-8320-7eda855d1809</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.РегистрСостоянийОбъектов" category="Manager">
+				<xr:TypeId>f0101adb-6ee2-47bb-b0ce-8b25346e943d</xr:TypeId>
+				<xr:ValueId>9110890e-5d97-45bf-80f3-58439ce51027</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.РегистрСостоянийОбъектов" category="Selection">
+				<xr:TypeId>2f089b52-d8bc-4977-aca3-5a076a9e8f7f</xr:TypeId>
+				<xr:ValueId>a8b0d958-b001-4e89-b508-5da17dbdb168</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.РегистрСостоянийОбъектов" category="List">
+				<xr:TypeId>054e82f5-b6b2-4696-8d78-bdd0ca307768</xr:TypeId>
+				<xr:ValueId>a2110a10-185d-4bb0-bd34-1878365b2868</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РегистрСостоянийОбъектов" category="RecordSet">
+				<xr:TypeId>d2003e5e-7c45-438e-8ddf-d2ccfcd2cc4f</xr:TypeId>
+				<xr:ValueId>a6a01e1c-e012-4a6d-a52f-1e9765ed6951</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РегистрСостоянийОбъектов" category="RecordKey">
+				<xr:TypeId>0824f632-8400-4ac3-8a6e-b29cc9503360</xr:TypeId>
+				<xr:ValueId>843df69e-e945-470d-8bc8-92e697c80a1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РегистрСостоянийОбъектов" category="RecordManager">
+				<xr:TypeId>a93a5657-e845-4e2f-b1c0-736672f495be</xr:TypeId>
+				<xr:ValueId>2f2144fe-d9d1-4070-9fc5-b241c9193429</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистрСостоянийОбъектов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>05b70226-3766-4e4b-80e9-e3e40c5c1144</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

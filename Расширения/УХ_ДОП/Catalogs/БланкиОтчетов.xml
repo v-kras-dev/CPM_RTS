@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="1ef3e945-dbc2-43cf-8407-dd588b56deb6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БланкиОтчетов" category="Object">
+				<xr:TypeId>b670b0b2-79ac-4f3b-bba1-0b85b66eef15</xr:TypeId>
+				<xr:ValueId>0b94828d-0588-4f87-9631-fe9807e4514a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БланкиОтчетов" category="Ref">
+				<xr:TypeId>24e68a4b-db36-4998-b645-2c3150efc1d2</xr:TypeId>
+				<xr:ValueId>bd97e5aa-16d1-4992-bab7-4170647edec6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БланкиОтчетов" category="Selection">
+				<xr:TypeId>38129383-199a-4f70-b28c-57e7ac7e8440</xr:TypeId>
+				<xr:ValueId>f61575bb-c2ef-4804-9528-a368602dbea6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БланкиОтчетов" category="List">
+				<xr:TypeId>93a4f4c7-efc1-4b5b-9be7-cc4a30d817e0</xr:TypeId>
+				<xr:ValueId>be8f7a85-479b-446d-8352-84cef2738815</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БланкиОтчетов" category="Manager">
+				<xr:TypeId>06360869-8efd-4712-be6e-824835d20e10</xr:TypeId>
+				<xr:ValueId>6aa6db35-4b05-47e3-97c7-5f866ba43fba</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БланкиОтчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4cad2f77-e1a2-42c2-ba9f-e55045c9da60</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаМакетаАналитическийБланк</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

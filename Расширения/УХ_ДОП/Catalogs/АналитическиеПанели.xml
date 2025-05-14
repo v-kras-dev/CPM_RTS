@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="edbb377a-f5a1-4965-86e2-374d76be361d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АналитическиеПанели" category="Object">
+				<xr:TypeId>f745d0fe-db12-476d-911a-af7f479e5fb2</xr:TypeId>
+				<xr:ValueId>599f9c6f-08a3-4332-b13b-1eb81191c002</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АналитическиеПанели" category="Ref">
+				<xr:TypeId>89b618ee-9cdb-4dff-a99a-718931c91eef</xr:TypeId>
+				<xr:ValueId>d48d86b6-70db-4418-bb67-309b5cfbaaba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АналитическиеПанели" category="Selection">
+				<xr:TypeId>26baa11a-74d6-4a40-aefb-e3b7a6a173ab</xr:TypeId>
+				<xr:ValueId>44c3089b-85e2-492e-9385-8b48741b8dd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АналитическиеПанели" category="List">
+				<xr:TypeId>e9c3155d-f118-4885-a669-9eacc83c0f69</xr:TypeId>
+				<xr:ValueId>7944d0a5-a754-4c20-b724-487dd6b2950e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АналитическиеПанели" category="Manager">
+				<xr:TypeId>f89bc488-993b-4ffc-8784-14a84f0fe4d3</xr:TypeId>
+				<xr:ValueId>3323f72b-a88f-4404-a1ca-27c8f118ea15</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>АналитическиеПанели</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>47492062-0dd4-48a7-8a39-3e3a4f15aefa</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаРаботыСДанными</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

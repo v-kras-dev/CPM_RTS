@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="90c27aa1-181e-4db3-b5d9-41143587845a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СистемаНалогообложенияКонтрагента" category="Ref">
+				<xr:TypeId>4c861f0c-41cb-4b33-8dab-c2e612af3332</xr:TypeId>
+				<xr:ValueId>9c109031-b660-447a-9663-39ed416a24fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СистемаНалогообложенияКонтрагента" category="Manager">
+				<xr:TypeId>aaf9ee01-01d7-4046-ac8e-8272f73a53c4</xr:TypeId>
+				<xr:ValueId>1ebaa7ea-beb8-474e-8c29-1ff89f51d165</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СистемаНалогообложенияКонтрагента" category="List">
+				<xr:TypeId>eeb8de5e-026c-4989-b8f1-06c73544d19a</xr:TypeId>
+				<xr:ValueId>cf6b38c6-cf97-4364-9546-b8d6f3f92243</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СистемаНалогообложенияКонтрагента</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Система налогообложения контрагента</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bd279dfe-d7f0-4491-8c96-c85406d71fa3">
+				<Properties>
+					<Name>ЕНВД</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Признак применения системы налогообложения в виде единого налога на вмененный доход</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d48f275d-7a8f-46e7-8394-240ed8351720">
+				<Properties>
+					<Name>ЕСХН</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Единый сельскохозяйственный налог</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cfb5e2a2-11ed-4c67-a02d-4624ea751922">
+				<Properties>
+					<Name>СРП</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Признак применения системы налогообложения при выполнении соглашения о разделе продукции</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="41356b2b-8ab4-4910-87c4-7f726b597995">
+				<Properties>
+					<Name>УСН</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Упрощённая система налогообложения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dcd3bc34-4206-4eb0-92d2-632af548265c">
+				<Properties>
+					<Name>ОСН</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общая система налогообложения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="e17ee53d-f0a8-40f5-b5bb-c414c2c5f6dd">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПакетыДанных" category="Object">
+				<xr:TypeId>48d118a2-21b7-4078-91fc-9e1a35147790</xr:TypeId>
+				<xr:ValueId>0abedcda-ae45-4be6-84e8-8e40e7adbb43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПакетыДанных" category="Ref">
+				<xr:TypeId>17e3d5a0-b60c-4067-a55f-3c6f9588c354</xr:TypeId>
+				<xr:ValueId>e67ce337-7574-4756-926d-1a610b0de7e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПакетыДанных" category="Selection">
+				<xr:TypeId>0d02e280-d6de-4369-badc-06d0851c3810</xr:TypeId>
+				<xr:ValueId>57d5b444-cabb-4163-bcf0-0bf0e0c6042c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПакетыДанных" category="List">
+				<xr:TypeId>d87e1bc2-aa7b-45d9-8428-72359f4584dd</xr:TypeId>
+				<xr:ValueId>43c9c131-615d-4aaa-9e60-f40627af93f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПакетыДанных" category="Manager">
+				<xr:TypeId>2ed60251-bade-4f7f-95e6-8a99a51c265c</xr:TypeId>
+				<xr:ValueId>ffdac092-16c4-4cff-951e-16946ada4070</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПакетыДанных</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>05992f50-3137-4cf5-936f-eb75d5294db5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

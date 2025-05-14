@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="1a8309dd-d70b-4e27-a4f0-c027effb4b79">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВариантыАналитическихПанелей" category="Object">
+				<xr:TypeId>171b9335-065b-4374-8a9b-c379dcd14ef2</xr:TypeId>
+				<xr:ValueId>7eb157e0-3713-4247-b93d-121b5c3df7d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВариантыАналитическихПанелей" category="Ref">
+				<xr:TypeId>4375ca70-3215-4ee9-a377-d077b851197c</xr:TypeId>
+				<xr:ValueId>f6c66acb-2969-49c4-8644-5c00b54b9dfb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВариантыАналитическихПанелей" category="Selection">
+				<xr:TypeId>aedc50a0-c240-465c-be47-2873e2c4439c</xr:TypeId>
+				<xr:ValueId>1bc062d0-059c-46bb-88b7-217c1ccb48b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВариантыАналитическихПанелей" category="List">
+				<xr:TypeId>3eb1b2ab-5645-4138-bd7a-baaefb86e57b</xr:TypeId>
+				<xr:ValueId>da833dcc-689c-40ab-a912-67d66ec4fb02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВариантыАналитическихПанелей" category="Manager">
+				<xr:TypeId>38ee4f63-6994-46bc-bf91-3240ecadee49</xr:TypeId>
+				<xr:ValueId>aea4647d-d408-45ec-a5d1-806a46bc4665</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантыАналитическихПанелей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>01028e09-f6f7-49ec-adcc-1ea17846aa4b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

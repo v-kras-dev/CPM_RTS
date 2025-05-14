@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Enum uuid="1ddde7c0-f820-4a8e-91a6-76a5b96b0fb6">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыЭтаповУниверсальныхПроцессов" category="Ref">
+				<xr:TypeId>2a385de2-9c61-4ddf-a9fe-2e8bbf85a27e</xr:TypeId>
+				<xr:ValueId>526b5f3a-8611-4f02-861b-83a711d8b095</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыЭтаповУниверсальныхПроцессов" category="Manager">
+				<xr:TypeId>e8fc9a04-573e-4ff3-b6f3-9e09daa4f9c3</xr:TypeId>
+				<xr:ValueId>bcd9df69-7b98-4619-bd49-ee4572a4095a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыЭтаповУниверсальныхПроцессов" category="List">
+				<xr:TypeId>48330ad9-9cb5-4cfe-bf26-bbd7094d99de</xr:TypeId>
+				<xr:ValueId>d0cffd64-51ae-49c8-9a96-163260ea84da</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыЭтаповУниверсальныхПроцессов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>53a028e2-31f2-45e3-9f3d-802fc90b3238</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="eb6f4ded-b4da-4e25-97e1-357744287a07">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЭтапСогласования</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dcc2e853-ba1d-41e5-8a8a-22d09bfc6939</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

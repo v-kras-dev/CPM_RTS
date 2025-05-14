@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Catalog uuid="9781d8db-f821-4fd0-947e-376dedb407d9">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатьиЗатрат" category="Object">
+				<xr:TypeId>b1c2fee8-1c7d-4c81-b7b5-f1c8cc8a65b2</xr:TypeId>
+				<xr:ValueId>28581dbb-ae6d-47d9-9ff5-54f4b9dc92b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатьиЗатрат" category="Ref">
+				<xr:TypeId>2eedee37-3415-42a8-b200-bd7b9cbcb8a8</xr:TypeId>
+				<xr:ValueId>ed79b7bd-7b4b-4be2-9bbb-d79e3cb02207</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатьиЗатрат" category="Selection">
+				<xr:TypeId>3028ca45-307a-4211-b8ee-ebd8fcba1897</xr:TypeId>
+				<xr:ValueId>2e7a3c1a-c95b-407b-a99d-62bf255e51f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатьиЗатрат" category="List">
+				<xr:TypeId>1a04af20-6efe-41f9-9998-14134586d2d0</xr:TypeId>
+				<xr:ValueId>162826e8-a362-4cae-b4d4-c288ef4bd06b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатьиЗатрат" category="Manager">
+				<xr:TypeId>c6953dd3-c459-4e33-8164-e4fe9f0eefb1</xr:TypeId>
+				<xr:ValueId>6e762d85-0ce7-414c-b7fb-33baf028b4ae</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатьиЗатрат</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>538a3286-90a6-4b62-a29d-07014520239a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

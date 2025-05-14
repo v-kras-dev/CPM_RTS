@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<DefinedType uuid="e4bd5e91-59ab-42f1-971d-2da57b805ec0">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ОбъектыДляСогласования" category="DefinedType">
+				<xr:TypeId>0296f9ce-9160-440d-bbc2-e1a8f8a92329</xr:TypeId>
+				<xr:ValueId>7435a658-109b-4d86-8f9d-4092fa3b9a7b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбъектыДляСогласования</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0810d16a-064e-4835-8f37-ccaaaf9baa2d</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:DocumentRef.НастраиваемыйОтчет</v8:Type>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

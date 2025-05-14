@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="ccbb6336-c38c-42d1-accc-834c91331c33">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиПравДоступаПользователейВидыОтчетов" category="Record">
+				<xr:TypeId>89f0b26e-b06f-45f9-814c-9d44e3529025</xr:TypeId>
+				<xr:ValueId>5c6cae37-8897-4a73-8f1a-1c7e21a4fe75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиПравДоступаПользователейВидыОтчетов" category="Manager">
+				<xr:TypeId>9fccc490-a2bf-4131-9912-58c341fddcd4</xr:TypeId>
+				<xr:ValueId>fb7abb58-347c-4c6b-aced-ff4cf514a639</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиПравДоступаПользователейВидыОтчетов" category="Selection">
+				<xr:TypeId>16a646a4-7272-4f48-aae9-ccce03fcc474</xr:TypeId>
+				<xr:ValueId>5a7f3a01-dfe5-48d4-b2f1-4fde11d86215</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиПравДоступаПользователейВидыОтчетов" category="List">
+				<xr:TypeId>05c7c8b9-617d-44b6-a2f2-ff635558930b</xr:TypeId>
+				<xr:ValueId>b54e83b4-1cb1-4eef-a6f5-983aa7e1017b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиПравДоступаПользователейВидыОтчетов" category="RecordSet">
+				<xr:TypeId>17a6d0ff-658e-4a0e-b0c0-8bc9a55f7bbd</xr:TypeId>
+				<xr:ValueId>6a93dd24-629b-4de6-b73d-e0088f4f5828</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиПравДоступаПользователейВидыОтчетов" category="RecordKey">
+				<xr:TypeId>8b8fc59e-d9af-4eed-82ee-a47202d15b5c</xr:TypeId>
+				<xr:ValueId>8f1926d2-cd7e-4f3b-a10b-c38222e9afd6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиПравДоступаПользователейВидыОтчетов" category="RecordManager">
+				<xr:TypeId>6af651fc-2d8d-414c-abbf-45e56e795601</xr:TypeId>
+				<xr:ValueId>e9de5ed5-ff9d-4229-b987-991b77ee7948</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиПравДоступаПользователейВидыОтчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2deb1d5e-b8ee-4100-a2fd-0a86e0d7b617</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

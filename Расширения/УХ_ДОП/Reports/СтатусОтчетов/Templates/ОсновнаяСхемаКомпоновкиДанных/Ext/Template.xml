@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтчетВидОтчета</dataPath>
+			<field>ОтчетВидОтчета</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет вид отчета</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отчет</dataPath>
+			<field>Отчет</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СостояниеОтчета</dataPath>
+			<field>СостояниеОтчета</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние отчета</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтвественныйЭтапаСогласования</dataPath>
+			<field>ОтвественныйЭтапаСогласования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отвественный этапа согласования</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаНазначенияОтвественного</dataPath>
+			<field>ДатаНазначенияОтвественного</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата назначения отвественного</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭтапПроцесса</dataPath>
+			<field>ЭтапПроцесса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДействия</dataPath>
+			<field>ВидДействия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументПроцесса</dataPath>
+			<field>ДокументПроцесса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипКлючевогоОбъекта</dataPath>
+			<field>ТипКлючевогоОбъекта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Выполнено</dataPath>
+			<field>Выполнено</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Задача</dataPath>
+			<field>Задача</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ВЫРАЗИТЬ(СостояниеОбъектов.Объект КАК Документ.НастраиваемыйОтчет) КАК Отчет,
+	ВЫРАЗИТЬ(СостояниеОбъектов.СостояниеОбъекта КАК Перечисление.СостоянияОтчетов) КАК СостояниеОтчета,
+	Процессы.Ответственный КАК ОтвественныйЭтапаСогласования,
+	Процессы.Период КАК ДатаНазначенияОтвественного,
+	Процессы.ДокументПроцесса КАК ДокументПроцесса
+ПОМЕСТИТЬ ВТ_ВыгрузкаПоследнийСостояний
+ИЗ
+	РегистрСведений.ОтложеннаяОбработкаЭтаповПроцессов.СрезПоследних(
+			&amp;Период,
+			НЕ Выполнено
+				И НЕ Ответственный.Наименование В ("Карелина Дарья Александровна", "Брайко Татьяна Васильевна", "Золотарева Ирина Васильевна", "Халилуллин Камиль Ильфанович", "Ковайкина Елена Николаевна", "Генадьева Татьяна", "Баранова Татьяна Михайловна", "Антонюк В. С.")
+				И ДокументПроцесса.СостояниеВыполнения &lt;&gt; ЗНАЧЕНИЕ(Перечисление.СостоянияПроцесса.Завершен)) КАК Процессы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.РегистрСостоянийОбъектов.СрезПоследних(&amp;Период, ) КАК СостояниеОбъектов
+		ПО Процессы.ДокументПроцесса.КлючевойОбъектПроцесса = СостояниеОбъектов.Объект
+
+СГРУППИРОВАТЬ ПО
+	Процессы.Ответственный,
+	Процессы.Период,
+	ВЫРАЗИТЬ(СостояниеОбъектов.Объект КАК Документ.НастраиваемыйОтчет),
+	ВЫРАЗИТЬ(СостояниеОбъектов.СостояниеОбъекта КАК Перечисление.СостоянияОтчетов),
+	Процессы.ДокументПроцесса
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ВыгрузкаПоследнийСостояний.Отчет КАК Отчет,
+	ВТ_ВыгрузкаПоследнийСостояний.СостояниеОтчета КАК СостояниеОтчета,
+	ВТ_ВыгрузкаПоследнийСостояний.ОтвественныйЭтапаСогласования КАК ОтвественныйЭтапаСогласования,
+	ВТ_ВыгрузкаПоследнийСостояний.ДатаНазначенияОтвественного КАК ДатаНазначенияОтвественного,
+	ВТ_ВыгрузкаПоследнийСостояний.Отчет.ВидОтчета КАК ОтчетВидОтчета
+ИЗ
+	ВТ_ВыгрузкаПоследнийСостояний КАК ВТ_ВыгрузкаПоследнийСостояний
+ГДЕ
+	ВТ_ВыгрузкаПоследнийСостояний.СостояниеОтчета &lt;&gt; ЗНАЧЕНИЕ(Перечисление.СостоянияОтчетов.Утвержден)</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных2</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период_Брайко</dataPath>
+			<field>Период_Брайко</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтчетВидОтчета_Брайко</dataPath>
+			<field>ОтчетВидОтчета_Брайко</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет вид отчета</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отчет_Брайко</dataPath>
+			<field>Отчет_Брайко</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отвественный_Брайко</dataPath>
+			<field>Отвественный_Брайко</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отвественный</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СостояниеВыполнения_Брайко</dataPath>
+			<field>СостояниеВыполнения_Брайко</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние выполнения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ДопСогласование.Пользователь КАК Отвественный,
+	ВЫРАЗИТЬ(ДопСогласование.Ссылка.КлючевойОбъектПроцесса КАК Документ.НастраиваемыйОтчет) КАК Отчет,
+	ДопСогласование.Ссылка.СостояниеВыполнения КАК СостояниеВыполнения,
+	ДопСогласование.Ссылка.Дата КАК Период
+ПОМЕСТИТЬ ВТ_ПроцессыБрайко
+ИЗ
+	Документ.ЭкземплярПроцесса.ДополнительныеСогласующие КАК ДопСогласование
+ГДЕ
+	ДопСогласование.Этап.ТипЭтапа = ЗНАЧЕНИЕ(Перечисление.ТипыЭтаповУниверсальныхПроцессов.ЭтапСогласования)
+	И ВЫРАЗИТЬ(ДопСогласование.Пользователь КАК Справочник.Пользователи).Наименование = "Брайко Татьяна Васильевна"
+
+СГРУППИРОВАТЬ ПО
+	ДопСогласование.Пользователь,
+	ВЫРАЗИТЬ(ДопСогласование.Ссылка.КлючевойОбъектПроцесса КАК Документ.НастраиваемыйОтчет),
+	ДопСогласование.Ссылка.СостояниеВыполнения,
+	ДопСогласование.Ссылка.Дата
+
+ИМЕЮЩИЕ
+	КОЛИЧЕСТВО(ДопСогласование.Пользователь) &gt; 1
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ПроцессыБрайко.Отчет КАК Отчет_Брайко,
+	ВТ_ПроцессыБрайко.Отчет.ВидОтчета КАК ОтчетВидОтчета_Брайко,
+	ВТ_ПроцессыБрайко.Отвественный КАК Отвественный_Брайко,
+	ВТ_ПроцессыБрайко.СостояниеВыполнения КАК СостояниеВыполнения_Брайко,
+	ВТ_ПроцессыБрайко.Период КАК Период_Брайко
+ИЗ
+	ВТ_ПроцессыБрайко КАК ВТ_ПроцессыБрайко
+ГДЕ
+	ВТ_ПроцессыБрайко.СостояниеВыполнения = ЗНАЧЕНИЕ(Перечисление.СостоянияПроцесса.ВРаботе)</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>На дату</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статусы документов</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаНазначенияОтвественного</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтчетВидОтчета</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СостояниеОтчета</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтвественныйЭтапаСогласования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Отчет</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">СостояниеОтчета</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>e50fb36e-e8f8-431a-8a7c-c23d36dfcf3d</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ОтчетВидОтчета</dcsset:left>
+					<dcsset:comparisonType>InHierarchy</dcsset:comparisonType>
+					<dcsset:userSettingID>320b55cd-a209-4f3e-b6b4-396ca0731c87</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа отчетов</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfLastDay</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>7650e73f-8ebb-4c84-8298-1b2d5dba2d2d</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Main</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Период_Брайко</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Отчет_Брайко</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ОтчетВидОтчета_Брайко</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СостояниеВыполнения_Брайко</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>МакетОформления</dcscor:parameter>
+						<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Заголовок</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отчеты Татьяны Брайко</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

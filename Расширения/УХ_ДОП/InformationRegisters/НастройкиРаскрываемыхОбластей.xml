@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<InformationRegister uuid="5a4f96c6-ae6f-4879-8cf7-a36e09b52cd3">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиРаскрываемыхОбластей" category="Record">
+				<xr:TypeId>5971819d-08fe-4569-a10b-fa45684688b1</xr:TypeId>
+				<xr:ValueId>18553053-24dc-48ca-ae39-79711947f737</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиРаскрываемыхОбластей" category="Manager">
+				<xr:TypeId>be0dae97-8684-41bd-a5e0-3f04b8502519</xr:TypeId>
+				<xr:ValueId>b1418da5-e4d1-4826-9640-0f90fcd66ee6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиРаскрываемыхОбластей" category="Selection">
+				<xr:TypeId>a2c6470c-8767-4d5f-aee7-d2de17a67a9f</xr:TypeId>
+				<xr:ValueId>9a537352-9ae1-4cf8-b697-8c9b68407080</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиРаскрываемыхОбластей" category="List">
+				<xr:TypeId>111bf986-b4ae-4b34-a012-3daa3ac6c7ae</xr:TypeId>
+				<xr:ValueId>d91ee58a-03f5-4533-a839-198af9fb8eed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиРаскрываемыхОбластей" category="RecordSet">
+				<xr:TypeId>5cd24402-4c00-467c-8556-017c92401b9d</xr:TypeId>
+				<xr:ValueId>a5097723-da07-4304-87f4-785020bc2703</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиРаскрываемыхОбластей" category="RecordKey">
+				<xr:TypeId>23dad39e-34a0-476c-af08-dea8185d2fbc</xr:TypeId>
+				<xr:ValueId>431a14d3-0350-4359-a807-ca1f54a7558d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиРаскрываемыхОбластей" category="RecordManager">
+				<xr:TypeId>555e1d3d-8e57-4ac5-b8e1-6180c7b6a79a</xr:TypeId>
+				<xr:ValueId>65af1105-1d1c-410c-bff3-304c5fd0c48a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиРаскрываемыхОбластей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>87ecd016-2c33-4a4f-9997-3633a5233c7d</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>
