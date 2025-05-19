@@ -119,6 +119,11 @@
 					<v8:content>Период отчета</v8:content>
 				</v8:item>
 			</title>
+			<orderExpression>
+				<dcscom:expression>ПериодОтчета</dcscom:expression>
+				<dcscom:orderType>Asc</dcscom:orderType>
+				<dcscom:autoOrder>false</dcscom:autoOrder>
+			</orderExpression>
 			<valueType>
 				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.Периоды</v8:Type>
 			</valueType>
@@ -555,7 +560,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
@@ -636,7 +641,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -784,7 +789,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -874,7 +879,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -918,7 +923,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -962,7 +967,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1006,7 +1011,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1053,7 +1058,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1098,7 +1103,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1143,7 +1148,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1188,7 +1193,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1254,7 +1259,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#B22222</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1344,7 +1349,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#B22222</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1384,7 +1389,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#B22222</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1424,7 +1429,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#B22222</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1464,7 +1469,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#B22222</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1507,7 +1512,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1548,7 +1553,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1589,7 +1594,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1630,7 +1635,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1697,7 +1702,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1787,7 +1792,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#B22222</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1827,7 +1832,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#B22222</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1867,7 +1872,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#B22222</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1907,7 +1912,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#B22222</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1950,7 +1955,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -1991,7 +1996,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -2032,7 +2037,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -2073,7 +2078,7 @@
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xmlns:d8p1="http://v8.1c.ru/8.1/data/ui/style" xsi:type="v8ui:Color">d8p1:ВажноеСобытие</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">#A51F1F</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -2207,6 +2212,7 @@
 			</dcsset:dataParameters>
 			<dcsset:order>
 				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:use>false</dcsset:use>
 					<dcsset:field>Направление</dcsset:field>
 					<dcsset:orderType>Asc</dcsset:orderType>
 				</dcsset:item>
@@ -2585,7 +2591,9 @@
 							</dcsset:item>
 						</dcsset:groupItems>
 						<dcsset:order>
-							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto">
+								<dcsset:use>false</dcsset:use>
+							</dcsset:item>
 						</dcsset:order>
 						<dcsset:selection>
 							<dcsset:item xsi:type="dcsset:SelectedItemAuto">
@@ -2640,6 +2648,10 @@
 									<dcsset:item xsi:type="dcsset:OrderItemAuto">
 										<dcsset:use>false</dcsset:use>
 									</dcsset:item>
+									<dcsset:item xsi:type="dcsset:OrderItemField">
+										<dcsset:field>Сумма</dcsset:field>
+										<dcsset:orderType>Desc</dcsset:orderType>
+									</dcsset:item>
 								</dcsset:order>
 								<dcsset:selection>
 									<dcsset:item xsi:type="dcsset:SelectedItemAuto">
@@ -2662,6 +2674,10 @@
 									<dcsset:order>
 										<dcsset:item xsi:type="dcsset:OrderItemAuto">
 											<dcsset:use>false</dcsset:use>
+										</dcsset:item>
+										<dcsset:item xsi:type="dcsset:OrderItemField">
+											<dcsset:field>Сумма</dcsset:field>
+											<dcsset:orderType>Desc</dcsset:orderType>
 										</dcsset:item>
 									</dcsset:order>
 									<dcsset:selection>
